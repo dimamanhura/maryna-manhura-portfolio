@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = []
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+type Social {
+  linkedin      String
+  dribbble      String
+  behance       String
+}
+
+model Metadata {
+  id             String @id @default(auto()) @map("_id") @db.ObjectId
+  firstName      String
+  lastName       String
+  description    String
+  email          String
+  social         Social
+}
+
+model Company {
+  id             String @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  description    String
+  logoColor      String
+  logoBlack      String
+  projects       Project[]
+  startAt        String
+  endAt          String?
+}
+
+model Project {
+  id             String @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  description    String
+  image          String
+  startAt        String
+  endAt          String?
+  companyId      String @db.ObjectId
+  company        Company @relation(fields: [companyId], references: [id])
+}

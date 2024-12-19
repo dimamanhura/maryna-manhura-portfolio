@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Traces",
+    "description": "Traces app acts as a critical visualization and analytical tool for optimizing well operations, ensuring efficiency, safety, and cost-effectiveness in the Oil & Gas industry",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259065/maryna-manhura-portfolio/projects/traces/kyd4uip2iq1mrrqh0lvj.png",
+    "startAt": "2024-05-01",
+    "endAt": "2024-12-01",
+    "companyId": "675e945d74310dfe7285de78"
+  },
+  {
+    "name": "Well Map",
+    "description": "Its ability to integrate real-time data and visualize it in a geospatial context enhances situational awareness and operational efficiency.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259269/maryna-manhura-portfolio/projects/well-map/anuqgr9x3sz5nmfyzv6f.png",
+    "startAt": "2024-01-01",
+    "endAt": "2024-04-01",
+    "companyId": "675e945d74310dfe7285de78"
+  },
+  {
+    "name": "Heat Map",
+    "description": "Manages channel settings and unit conversions for consistent Drilling Time Stream data.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259160/maryna-manhura-portfolio/projects/heat-map/f7hncnh78xvaxt2gx9pq.png",
+    "startAt": "2023-05-01",
+    "endAt": "2023-12-01",
+    "companyId": "675e945d74310dfe7285de78"
+  },
+  {
+    "name": "Slide Sheet",
+    "description": "Serves as a vital tool for monitoring, analyzing, and comparing directional drilling performance across wells.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259298/maryna-manhura-portfolio/projects/slide-sheet/jvij8szkpt6h2fycqtor.png",
+    "startAt": "2022-05-01",
+    "endAt": "2022-12-01",
+    "companyId": "675e945d74310dfe7285de78"
+  },
+  {
+    "name": "Stryker",
+    "description": "It specializes in advanced engineering solutions such as ASME BPVC VII, B31 series, PCC2, and techniques like on-line leak sealing, hot bolting, and hot taps.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259318/maryna-manhura-portfolio/projects/stryker/vqijhilevprme34bpfff.png",
+    "startAt": "2022-01-01",
+    "endAt": "2022-05-01",
+    "companyId": "675e945d74310dfe7285de79"
+  },
+  {
+    "name": "DialogX",
+    "description": "DealogX introduces a secure, decentralized platform that merges messaging and online office functionalities for seamless C2C and C2B communication.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259120/maryna-manhura-portfolio/projects/dialog-x/arsoqpksufotgtmhzhli.png",
+    "startAt": "2021-01-01",
+    "endAt": "2021-12-01",
+    "companyId": "675e945d74310dfe7285de7a"
+  },
+  {
+    "name": "Platmix",
+    "description": "Platmix is an all-in-one platform providing businesses with the tools to find partners, conduct procurement or sales procedures, and finalize contracts.",
+    "image": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734259188/maryna-manhura-portfolio/projects/platmix/umplo187fzfrupmntdbv.png",
+    "startAt": "2020-01-01",
+    "endAt": "2020-12-01",
+    "companyId": "675e945d74310dfe7285de7b"
+  }
+]

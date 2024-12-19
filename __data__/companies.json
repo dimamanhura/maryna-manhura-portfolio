@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Corva",
+    "description": "...",
+    "logoColor": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/qjalsx5yt9wxjkifeix3.png",
+    "logoBlack": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/qjalsx5yt9wxjkifeix3.png",
+    "startAt": "2022-05-01",
+    "endAt": null
+  },
+  {
+    "name": "Stryker",
+    "description": "...",
+    "logoColor": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/ewuwdex1khqznes6gban.png",
+    "logoBlack": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/vivly2hefjv9d2yvo0dw.png",
+    "startAt": "2022-04-01",
+    "endAt": "2022-01-01"
+  },
+  {
+    "name": "DealogX",
+    "description": "...",
+    "logoColor": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/bppshazha0qaet5jeuhd.png",
+    "logoBlack": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/fpmvrrynktadmpipn2xm.png",
+    "startAt": "2021-01-01",
+    "endAt": "2022-01-01"
+  },
+  {
+    "name": "Platmix",
+    "description": "...",
+    "logoColor": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/fnndsqd2lozx9ezpmrww.png",
+    "logoBlack": "https://res.cloudinary.com/dvicfzbxc/image/upload/v1734251256/maryna-manhura-portfolio/companies/f5ccbz06qdaatot9cmti.png",
+    "startAt": "2019-01-01",
+    "endAt": "2021-01-01"
+  }
+]
