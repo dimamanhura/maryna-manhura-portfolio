@@ -1,6 +1,5 @@
 import { fetchMetadata } from "@/db/queries/metadata";
-import { Button } from "@nextui-org/react";
-import { FaDownload } from "react-icons/fa";
+import DownloadButton from "./DownloadButton";
 
 const HomeBanner = async () => {
   const metadata = await fetchMetadata();
@@ -16,9 +15,7 @@ const HomeBanner = async () => {
           </div>
           <p className="text-2xl">{metadata.description}</p>
           <div>
-            <Button startContent={<FaDownload />} className="bg-black text-white">
-              CV / Resume
-            </Button>  
+            <DownloadButton dark />
           </div>
         </div>
       )}
@@ -26,7 +23,7 @@ const HomeBanner = async () => {
 
       </div>
     </div>
-  )
+  );
 };
 
 export default HomeBanner;

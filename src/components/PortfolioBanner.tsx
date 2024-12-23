@@ -1,8 +1,7 @@
 import { fetchCompanies } from "@/db/queries/companies";
-import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import { Fragment } from "react";
-import { FaDownload } from "react-icons/fa";
+import DownloadButton from "./DownloadButton";
 
 const PortfolioBanner = async () => {
   const companies = await fetchCompanies();
@@ -13,9 +12,7 @@ const PortfolioBanner = async () => {
         <h1 className="text-5xl font-medium">My Portfolio</h1>
         <p className="text-2xl">Selected works from 2020 to the present.</p>
         <div>
-          <Button startContent={<FaDownload />} className="bg-white">
-            CV / Resume
-          </Button>  
+          <DownloadButton />
         </div>
       </div>
       <div className="grid grid-cols-2 gap-2">

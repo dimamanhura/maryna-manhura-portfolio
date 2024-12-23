@@ -12,8 +12,6 @@ const ProtectedPagesLayout = async ({ children }: Readonly<ProtectedPagesLayoutP
   const metadata = await fetchMetadata();
   const session = await auth();
 
-  console.log('session', session);
-
   if (!session?.user?.id) {
     return redirect('/password');
   }

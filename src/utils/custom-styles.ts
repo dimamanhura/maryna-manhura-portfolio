@@ -2,7 +2,7 @@ export const defineProjectCardBG = (index: number): string => {
   const remainderOfDivision = (index + 1) % 6;
 
   if (remainderOfDivision === 1) {
-    return'bg-[linear-gradient(70.4deg,_#CECDFD_2.34%,_#FAF0F3_88.94%)]';
+    return 'bg-[linear-gradient(70.4deg,_#CECDFD_2.34%,_#FAF0F3_88.94%)]';
   } else if  (remainderOfDivision === 2) {
     return 'bg-[linear-gradient(70.4deg,_#F6E6F3_21.58%,_#FFF5DE_98.56%)]';
   } else if (remainderOfDivision === 3) {

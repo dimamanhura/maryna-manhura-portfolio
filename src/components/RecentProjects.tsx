@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { FaExternalLinkAlt } from "react-icons/fa";
 import { Button } from "@nextui-org/react";
 import { fetchRecentProjects } from "@/db/queries/projects";
 import ProjectCard from "@/components/ProjectCard";
 import { defineProjectCardBG } from "@/utils/custom-styles";
+import LinkIcon from "@/icons/LinkIcon";
 
 const RecentProjects = async () => {
   const recentProjects = await fetchRecentProjects();
@@ -22,7 +22,7 @@ const RecentProjects = async () => {
       </div>
       <div>
         <Button
-          startContent={<FaExternalLinkAlt />}
+          startContent={<LinkIcon />}
           className="bg-black text-white"
           href="/portfolio"
           as={Link}
