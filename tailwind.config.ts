@@ -7,6 +7,12 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-cmdk-tw/**/*.{js,ts,jsx,tsx}'
+  ],
+  presets: [
+    require('@heathmont/moon-core-tw/lib/private/presets/ds-moon-preset'),
+    require('@heathmont/moon-core-tw/lib/es/private/presets/ds-moon-preset'),
   ],
   safelist: [
     'bg-[linear-gradient(70.4deg,_#CECDFD_2.34%,_#FAF0F3_88.94%)]',

@@ -44,3 +44,10 @@ model Project {
   companyId      String @db.ObjectId
   company        Company @relation(fields: [companyId], references: [id])
 }
+
+model NNGCertification {
+  id             String @id @default(auto()) @map("_id") @db.ObjectId
+  group          String
+  progress       Int
+  courses        Int 
+}

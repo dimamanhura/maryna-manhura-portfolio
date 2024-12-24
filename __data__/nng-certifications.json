@@ -1,0 +1,17 @@
+[
+  {
+    "group": "Interaction Design",
+    "progress": 0,
+    "courses": 5 
+  },
+  {
+    "group": "UX Management",
+    "progress": 0,
+    "courses": 5 
+  },
+  {
+    "group": "UX Research",
+    "progress": 1,
+    "courses": 5 
+  }
+]
