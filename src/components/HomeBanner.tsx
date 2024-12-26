@@ -1,5 +1,6 @@
 import { fetchMetadata } from "@/db/queries/metadata";
-import DownloadButton from "./DownloadButton";
+import DownloadButton from "@/components/DownloadButton";
+import ProjectsPreview from "@/components/ProjectsPreview";
 
 const HomeBanner = async () => {
   const metadata = await fetchMetadata();
@@ -19,9 +20,7 @@ const HomeBanner = async () => {
           </div>
         </div>
       )}
-      <div className="rounded-3xl w-full h-full bg-[linear-gradient(70.4deg,_#FBEFE6_2.34%,_#D1CFFE_98.56%)]">
-
-      </div>
+      <ProjectsPreview />
     </div>
   );
 };

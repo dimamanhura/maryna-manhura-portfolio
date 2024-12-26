@@ -1,5 +1,5 @@
 import { fetchNNGCertifications } from "@/db/queries/nng-certifications";
-import NNGCertificationsTable from "./NNGCertificationsTable";
+import NNGCertificationsTable from "@/components/NNGCertificationsTable";
 
 const Certifications = async () => {
   const NNGCertifications = await fetchNNGCertifications();

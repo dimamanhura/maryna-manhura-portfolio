@@ -15,18 +15,22 @@ const config: Config = {
     require('@heathmont/moon-core-tw/lib/es/private/presets/ds-moon-preset'),
   ],
   safelist: [
-    'bg-[linear-gradient(70.4deg,_#CECDFD_2.34%,_#FAF0F3_88.94%)]',
-    'bg-[linear-gradient(70.4deg,_#F6E6F3_21.58%,_#FFF5DE_98.56%)]',
-    'bg-[linear-gradient(70.4deg,_#FBEFE6_2.34%,_#D1CFFE_98.56%)]',
-    'bg-[linear-gradient(70.4deg,_#EEDDFE_2.34%,_#FAF0F2_98.56%)]',
-    'bg-[linear-gradient(70.4deg,_#CFFEFB_2.34%,_#F7FFDE_98.56%)]',
-    'bg-[linear-gradient(70.4deg,_#FFF5DE_2.34%,_#E6F2F6_69.7%)]',
+    'bg-from-dark-violet-to-light-yellow',
+    'bg-from-light-violet-to-dark-yellow',
+    'bg-from-yellow-to-violet',
+    'bg-from-violet-to-yellow',
+    'bg-from-green-to-yellow',
+    'bg-from-yellow-to-green',
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        'from-dark-violet-to-light-yellow': 'linear-gradient(70.4deg, #CECDFD 2.34%, #FAF0F3 88.94%)',
+        'from-light-violet-to-dark-yellow': 'linear-gradient(70.4deg, #F6E6F3 21.58%, #FFF5DE 98.56%)',
+        'from-yellow-to-violet': 'linear-gradient(70.4deg, #FBEFE6 2.34%, #D1CFFE 98.56%)',
+        'from-violet-to-yellow': 'linear-gradient(70.4deg, #EEDDFE 2.34%, #FAF0F2 98.56%)',
+        'from-green-to-yellow': 'linear-gradient(70.4deg, #CFFEFB 2.34%, #F7FFDE 98.56%)',
+        'from-yellow-to-green': 'linear-gradient(70.4deg, #FFF5DE 2.34%, #E6F2F6 69.7%)',
       },
     },
   },

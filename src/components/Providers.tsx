@@ -1,7 +1,7 @@
 'use client';
 
 import { NextUIProvider } from '@nextui-org/react';
-import AuthProvider from './AuthProvider';
+import AuthProvider from '@/components/AuthProvider';
 
 interface ProvidersProps {
   children: React.ReactNode;
