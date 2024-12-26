@@ -37,10 +37,15 @@ const ProjectCard = ({ project, bgClassName }: ProjectCardProps) => {
             {project.description}
           </p>
         </div>
-        <div className="h-full min-h-40 relative">
+        <div className="h-full max-h-40 relative flex justify-end items-center">
           <Image
-            className="object-contain object-right"
-            fill
+            className="object-fit rounded shadow-2xl"
+            height={320}
+            width={320}
+            style={{
+              height: "100%",
+              width: "auto",
+            }}
             src={`${project.image}`}
             alt={project.name}
           />
